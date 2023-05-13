@@ -1,4 +1,6 @@
 import React, {useState} from "react";
+import Button from "./button";
+import Display from "./display";
 import "./App.css";
 
 const App = () => {
@@ -37,35 +39,29 @@ const App = () => {
     return (
         <div className= "container">
             <form>
-                <div className="display">
-                    <input type="text" className="operation" value={value}/>
-                    <input type="text" className="result" value={result}/>
-                </div>
+                <Display value={value} result={result} />
             </form>
 
             <div className="keypad">
-                <button name="7" onClick={handleclick}>7</button>
-                <button name="8" onClick={handleclick}>8</button>
-                <button name="9" onClick={handleclick}>9</button>
-                <button onClick={borrar} id="borrar">DEL</button>
-                <button onClick={clear} id="clear">AC</button>
-                <button name="4" onClick={handleclick}>4</button>
-                <button name="5" onClick={handleclick}>5</button>
-                <button name="6" onClick={handleclick}>6</button>
-                <button name="*" onClick={handleclick}>&times;</button>
-                <button name="/" onClick={handleclick}>&divide;</button>
-                <button name="1" onClick={handleclick}>1</button>
-                <button name="2" onClick={handleclick}>2</button>
-                <button name="3" onClick={handleclick}>3</button>
-                <button name="+" onClick={handleclick}>+</button>
-                <button name="-" onClick={handleclick}>&ndash;</button>
-                <button name="0" onClick={handleclick}>0</button>
-                <button name="." onClick={handleclick}>.</button>
-                <button onClick={handleAnsClick} id="ans">Ans</button>
-                <button onClick={calculate} id="result">=</button>
-
-
-
+                <Button name="7" onClick={handleclick}>7</Button>
+                <Button name="8" onClick={handleclick}>8</Button>
+                <Button name="9" onClick={handleclick}>9</Button>
+                <Button name="DEL" onClick={borrar} id="borrar">DEL</Button>
+                <Button name="AC" onClick={clear} id="clear">AC</Button>
+                <Button name="4" onClick={handleclick}>4</Button>
+                <Button name="5" onClick={handleclick}>5</Button>
+                <Button name="6" onClick={handleclick}>6</Button>
+                <Button name="*" onClick={handleclick}>&times;</Button>
+                <Button name="/" onClick={handleclick}>&divide;</Button>
+                <Button name="1" onClick={handleclick}>1</Button>
+                <Button name="2" onClick={handleclick}>2</Button>
+                <Button name="3" onClick={handleclick}>3</Button>
+                <Button name="+" onClick={handleclick}>+</Button>
+                <Button name="-" onClick={handleclick}>&ndash;</Button>
+                <Button name="0" onClick={handleclick}>0</Button>
+                <Button name="." onClick={handleclick}>.</Button>
+                <Button name="ans" onClick={handleAnsClick} id="ans">Ans</Button>
+                <Button name="result" onClick={calculate} id="result">=</Button>
             </div>
         </div>
     );

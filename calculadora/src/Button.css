@@ -1,0 +1,21 @@
+
+#clear{
+    color: red;
+}
+
+#borrar{
+    color: red;
+}
+
+#result{
+    grid-column: 4/6;
+}
+
+button{
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: gray;
+    color: white;
+    font-size: 20px;
+}

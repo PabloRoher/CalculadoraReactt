@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18bce14e-c772-452e-bbfa-a0cdb59c1277" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculadora.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculadora/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculadora/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculadora/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculadora/src/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculadora/src/Display.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculadora/src/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculadora/src/display.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculadora/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculadora/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +35,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/pablo/OneDrive/Escritorio/Calculadora",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pablo/OneDrive/Escritorio/Calculadora&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,11 +54,24 @@
       <option name="presentableId" value="Default" />
       <updated>1683971163932</updated>
       <workItem from="1683971165715" duration="200000" />
-      <workItem from="1683971399693" duration="8566000" />
+      <workItem from="1683971399693" duration="8745000" />
+      <workItem from="1683991774613" duration="2152000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1683991097728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683991097728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
